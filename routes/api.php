@@ -12,8 +12,3 @@ use Illuminate\Http\Request;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
-// webhook for bitbucket
-Route::post('hook/bitbucket', 'HookController@bitbucket');
-Route::post('hook/github', 'HookController@github');
-// end webhook for bitbucket
