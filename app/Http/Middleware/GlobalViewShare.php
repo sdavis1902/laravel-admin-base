@@ -18,9 +18,6 @@ class GlobalViewShare
      */
     public function handle($request, Closure $next)
     {
-		$projects = Project::where('status', '=', 'Active')->get();
-		View::share('menu_projects', $projects);
-
 		$current_url = $request->path();
 		View::share('current_url', $current_url);
 
