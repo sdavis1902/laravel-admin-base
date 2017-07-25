@@ -2,9 +2,9 @@
 
 This is a very simple base installation of Laravel with a few things pre configured.
 
-AdminLTE theme.
-Auth via cartalyst/sentinel
-Twig support via [rcrow/TwigBridge](https://github.com/rcrowe/TwigBridge)  ( I like Twig better than Blade )
+AdminLTE theme,
+Auth via cartalyst/sentinel,
+Twig support via [rcrow/TwigBridge](https://github.com/rcrowe/TwigBridge)  ( I like Twig better than Blade ),
 Basic user management
 
 Just clone the repository and set up like you would set up any Laravel installation ( setup your .env, run migrations, composer install, setup your web server )
