@@ -1,4 +1,4 @@
-# Laravel Project Hub
+# Laravel Admin Base
 
 This is a very simple base installation of Laravel with a few things pre configured.
 
